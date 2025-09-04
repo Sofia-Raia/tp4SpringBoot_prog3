@@ -62,5 +62,9 @@ public class AgendaControlador {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("{\"error\":\" + Error, intente mas tarde \"}");
         }
     }
+    @GetMapping("/buscar")//buscar?texto=texto
+    public List<Agenda> obtenerItemsXNombreApellidoParcial(@RequestParam String texto){
+        return agendaServicio.obtenerItemsXNombreApellidoParcial(texto);
+    }
 
 }

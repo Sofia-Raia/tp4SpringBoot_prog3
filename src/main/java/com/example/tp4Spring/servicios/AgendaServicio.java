@@ -86,4 +86,8 @@ public class AgendaServicio implements BaseServicio<Agenda> {
         }
     }
 
+    public List<Agenda> obtenerItemsXNombreApellidoParcial(String texto){
+        List<Agenda> items = agendaManager.getItemsXNombreApellidoParcial(texto);
+        return items;
+    }
 }
