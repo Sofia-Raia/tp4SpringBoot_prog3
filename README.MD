@@ -1,4 +1,4 @@
-📘 Backend – Agenda de Contactos
+# 📘 Backend – Agenda de Contactos #
 
 Este proyecto implementa una API REST desarrollada en Java + Spring Boot y un frontend simple en HTML/JS, permitiendo gestionar una agenda de contactos almacenada en una base de datos.
 
@@ -74,8 +74,9 @@ Se probaron todas las funcionalidades utilizando Postman o herramientas similare
 
 📌 6. Frontend (HTML + JavaScript)
 
-El proyecto incluye un frontend simple que permite:
+El proyecto incluye un frontend simple que esta en otro repositoriro.
 link al front: https://github.com/Sofia-Raia/FrontAppWEB_TP6_JS
+El cual permite:
 
 Mostrar la tabla de contactos
 Buscar contactos
